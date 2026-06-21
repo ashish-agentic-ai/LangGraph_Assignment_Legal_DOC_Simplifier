@@ -421,6 +421,382 @@ formal letter based on purpose and recipient.
 
 ---
 
+### 19. Kalpesh Gujrati - Blog Outline Graph
+
+**Use Case:** A user provides a blog topic and target audience. The graph builds
+a structured blog outline.
+
+**Specialist Node 1 - `suggest_blog_angles`**
+- Suggest possible angles or hooks for the topic.
+
+**Specialist Node 2 - `build_section_outline`**
+- Draft the main sections and sub-points.
+
+**Specialist Node 3 - `suggest_seo_keywords`**
+- Suggest keywords and a working title.
+
+**Decision Node:** Decide whether the blog should be a short post or a long guide.
+
+**Final Nodes:** `short_blog_outline` and `long_form_blog_outline`.
+
+---
+
+### 20. Vishal Ghume - Movie Recommendation Graph
+
+**Use Case:** A user describes their mood and favorite genres. The graph
+recommends what to watch.
+
+**Specialist Node 1 - `match_genre_preferences`**
+- Match recommendations to preferred genres.
+
+**Specialist Node 2 - `match_mood`**
+- Suggest titles that fit the current mood.
+
+**Specialist Node 3 - `check_runtime_and_platform`**
+- Consider available time and streaming platforms.
+
+**Decision Node:** Decide whether to suggest a single pick or a watchlist.
+
+**Final Nodes:** `single_movie_pick` and `curated_watchlist`.
+
+---
+
+### 21. Ayush Jain - Presentation Builder Graph
+
+**Use Case:** A user provides a topic and audience. The graph plans a slide deck.
+
+**Specialist Node 1 - `define_key_messages`**
+- Identify the core messages to convey.
+
+**Specialist Node 2 - `build_slide_structure`**
+- Draft a slide-by-slide structure.
+
+**Specialist Node 3 - `suggest_visuals_and_data`**
+- Suggest charts, images, or data per slide.
+
+**Decision Node:** Decide whether the deck should be a quick pitch or a detailed talk.
+
+**Final Nodes:** `quick_pitch_deck` and `detailed_presentation_plan`.
+
+---
+
+### 22. Rahul Bhatia - Startup Idea Validator Graph
+
+**Use Case:** A user describes a startup idea. The graph evaluates and refines it.
+
+**Specialist Node 1 - `analyze_problem_fit`**
+- Assess the problem and target customer.
+
+**Specialist Node 2 - `analyze_market_and_competition`**
+- Identify market size and competitors.
+
+**Specialist Node 3 - `identify_risks_and_assumptions`**
+- List key risks and assumptions to test.
+
+**Decision Node:** Decide whether the idea is promising or needs major rework.
+
+**Final Nodes:** `promising_idea_report` and `idea_rework_plan`.
+
+---
+
+### 23. Swetha KJ - Book Summary Graph
+
+**Use Case:** A user provides a book title or chapter text. The graph creates a
+summary.
+
+**Specialist Node 1 - `extract_core_themes`**
+- Identify the main themes and ideas.
+
+**Specialist Node 2 - `extract_key_takeaways`**
+- Pull out actionable takeaways.
+
+**Specialist Node 3 - `pick_notable_quotes`**
+- Highlight memorable quotes or points.
+
+**Decision Node:** Decide whether the reader needs a quick recap or a deep summary.
+
+**Final Nodes:** `quick_book_recap` and `detailed_book_summary`.
+
+---
+
+### 24. Ashish - Legal Document Simplifier Graph
+
+**Use Case:** A user pastes legal or contract text. The graph explains it in
+plain language.
+
+**Specialist Node 1 - `explain_clauses_plain_english`**
+- Translate clauses into simple language.
+
+**Specialist Node 2 - `identify_obligations`**
+- List duties and responsibilities of each party.
+
+**Specialist Node 3 - `flag_risky_terms`**
+- Flag risky, unusual, or unclear terms.
+
+**Decision Node:** Decide whether the document is low risk or needs careful review.
+
+**Final Nodes:** `plain_summary_response` and `risk_review_response`.
+
+---
+
+### 25. Gayatri Kumari - Event Planner Graph
+
+**Use Case:** A user provides an event type, budget, and guest count. The graph
+plans the event.
+
+**Specialist Node 1 - `plan_venue_and_logistics`**
+- Suggest venue, layout, and logistics.
+
+**Specialist Node 2 - `plan_food_and_decor`**
+- Suggest catering and decoration ideas.
+
+**Specialist Node 3 - `build_budget_breakdown`**
+- Estimate a budget breakdown.
+
+**Decision Node:** Decide whether to plan a simple gathering or a full event.
+
+**Final Nodes:** `simple_event_plan` and `full_event_plan`.
+
+---
+
+### 26. Prajkta Tayade - Outfit Stylist Graph
+
+**Use Case:** A user provides an occasion and wardrobe items. The graph suggests
+outfits.
+
+**Specialist Node 1 - `match_outfit_to_occasion`**
+- Suggest outfits suited to the occasion.
+
+**Specialist Node 2 - `suggest_color_pairings`**
+- Recommend color and pattern combinations.
+
+**Specialist Node 3 - `suggest_accessories`**
+- Suggest accessories and footwear.
+
+**Decision Node:** Decide whether the look should be casual or formal.
+
+**Final Nodes:** `casual_outfit_plan` and `formal_outfit_plan`.
+
+---
+
+### 27. Aditya Harvi - Car Buying Advisor Graph
+
+**Use Case:** A user provides their budget, needs, and usage. The graph
+recommends a car.
+
+**Specialist Node 1 - `match_cars_to_needs`**
+- Shortlist car types that fit the needs.
+
+**Specialist Node 2 - `compare_running_costs`**
+- Compare fuel, mileage, and maintenance costs.
+
+**Specialist Node 3 - `check_resale_and_safety`**
+- Consider resale value and safety ratings.
+
+**Decision Node:** Decide whether to recommend a budget pick or a premium pick.
+
+**Final Nodes:** `budget_car_recommendation` and `premium_car_recommendation`.
+
+---
+
+### 28. Bharat Chhabriya - Investment Allocation Graph
+
+**Use Case:** A user provides a goal, time horizon, and risk appetite. The graph
+suggests an allocation.
+
+**Specialist Node 1 - `assess_risk_profile`**
+- Determine the user's risk tolerance.
+
+**Specialist Node 2 - `suggest_asset_mix`**
+- Suggest a mix across asset classes.
+
+**Specialist Node 3 - `plan_goal_horizon`**
+- Align allocation with the time horizon.
+
+**Decision Node:** Decide whether the strategy should be conservative or aggressive.
+
+**Final Nodes:** `conservative_allocation_plan` and `aggressive_allocation_plan`.
+
+---
+
+### 29. Abhishek Singh - Cybersecurity Risk Advisor Graph
+
+**Use Case:** A user describes a system or app setup. The graph reviews security
+risks.
+
+**Specialist Node 1 - `identify_vulnerabilities`**
+- Identify likely vulnerabilities.
+
+**Specialist Node 2 - `assess_data_exposure`**
+- Assess sensitive data exposure.
+
+**Specialist Node 3 - `recommend_safeguards`**
+- Recommend safeguards and best practices.
+
+**Decision Node:** Decide whether the setup is reasonably safe or high risk.
+
+**Final Nodes:** `standard_security_report` and `high_risk_security_report`.
+
+---
+
+### 30. Chetan Gujarathi - API Documentation Graph
+
+**Use Case:** A user pastes API endpoint code or a spec. The graph generates
+documentation.
+
+**Specialist Node 1 - `describe_endpoints`**
+- Describe each endpoint and its purpose.
+
+**Specialist Node 2 - `document_params_and_responses`**
+- Document parameters, requests, and responses.
+
+**Specialist Node 3 - `generate_usage_examples`**
+- Provide example requests and responses.
+
+**Decision Node:** Decide whether to produce a quick reference or full docs.
+
+**Final Nodes:** `quick_api_reference` and `full_api_documentation`.
+
+---
+
+### 31. Vinay Dhomane - Git Commit Message Graph
+
+**Use Case:** A user pastes a code diff or change summary. The graph writes a
+commit message.
+
+**Specialist Node 1 - `summarize_changes`**
+- Summarize what changed in the diff.
+
+**Specialist Node 2 - `classify_change_type`**
+- Classify the change (feat, fix, refactor, etc.).
+
+**Specialist Node 3 - `draft_commit_body`**
+- Draft the commit body with details.
+
+**Decision Node:** Decide whether a short commit or a detailed commit is needed.
+
+**Final Nodes:** `short_commit_message` and `detailed_commit_message`.
+
+---
+
+### 32. Sanket Hulle - Product Review Summarizer Graph
+
+**Use Case:** A user pastes multiple product reviews. The graph summarizes them.
+
+**Specialist Node 1 - `extract_pros`**
+- Extract commonly praised points.
+
+**Specialist Node 2 - `extract_cons`**
+- Extract commonly reported problems.
+
+**Specialist Node 3 - `gauge_overall_sentiment`**
+- Estimate overall sentiment and rating.
+
+**Decision Node:** Decide whether the product is recommended or not recommended.
+
+**Final Nodes:** `recommended_summary` and `not_recommended_summary`.
+
+---
+
+### 33. Dharma Tekipudi - Language Phrase Coach Graph
+
+**Use Case:** A user provides a target language and a real-life scenario. The
+graph teaches useful phrases.
+
+**Specialist Node 1 - `generate_key_phrases`**
+- Generate phrases for the scenario.
+
+**Specialist Node 2 - `add_pronunciation_guide`**
+- Add simple pronunciation hints.
+
+**Specialist Node 3 - `explain_cultural_tips`**
+- Share etiquette and cultural tips.
+
+**Decision Node:** Decide whether the learner needs a beginner or traveler pack.
+
+**Final Nodes:** `beginner_phrase_pack` and `traveler_phrase_pack`.
+
+---
+
+### 34. Durgeshkumar Abbad - Home Renovation Planner Graph
+
+**Use Case:** A user provides a space, budget, and goals. The graph plans the
+renovation.
+
+**Specialist Node 1 - `plan_layout_changes`**
+- Suggest layout and structural ideas.
+
+**Specialist Node 2 - `plan_materials_and_style`**
+- Suggest materials, colors, and style.
+
+**Specialist Node 3 - `estimate_budget_and_timeline`**
+- Estimate cost and timeline.
+
+**Decision Node:** Decide whether to plan a refresh or a full remodel.
+
+**Final Nodes:** `budget_refresh_plan` and `full_remodel_plan`.
+
+---
+
+### 35. Akshaykumar More - Podcast Script Graph
+
+**Use Case:** A user provides a podcast topic and format. The graph writes a
+script.
+
+**Specialist Node 1 - `draft_intro_hook`**
+- Write an opening hook and intro.
+
+**Specialist Node 2 - `build_talking_points`**
+- Build the main talking points or segments.
+
+**Specialist Node 3 - `write_outro_and_cta`**
+- Write the closing and call-to-action.
+
+**Decision Node:** Decide whether the episode is a short solo or a long interview.
+
+**Final Nodes:** `short_solo_script` and `long_interview_script`.
+
+---
+
+### 36. Upasana Nathsharma - Proposal Writer Graph
+
+**Use Case:** A user describes a project and goal. The graph drafts a proposal.
+
+**Specialist Node 1 - `define_objectives_and_scope`**
+- Define objectives, scope, and deliverables.
+
+**Specialist Node 2 - `outline_approach_and_timeline`**
+- Outline the approach and timeline.
+
+**Specialist Node 3 - `estimate_cost_and_value`**
+- Estimate cost and expected value.
+
+**Decision Node:** Decide whether to produce a short pitch or a formal proposal.
+
+**Final Nodes:** `short_proposal_draft` and `formal_proposal_draft`.
+
+---
+
+### 37. Sourabh Salve - Customer Onboarding Graph
+
+**Use Case:** A user provides a product and a new customer profile. The graph
+designs an onboarding plan.
+
+**Specialist Node 1 - `map_first_steps`**
+- Map the first key steps for the customer.
+
+**Specialist Node 2 - `plan_education_resources`**
+- Suggest guides, tutorials, and resources.
+
+**Specialist Node 3 - `define_success_milestones`**
+- Define early success milestones.
+
+**Decision Node:** Decide whether onboarding should be self-serve or guided.
+
+**Final Nodes:** `self_serve_onboarding_plan` and `guided_onboarding_plan`.
+
+---
+
 ## Evaluation Criteria
 
 | Criteria | Points |
