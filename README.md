@@ -1,0 +1,1 @@
+# LangGraph_Assignment_Legal_DOC_Simplifier
